@@ -1,0 +1,15 @@
+body, html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    // overflow-y: auto;
+    background-color: #FCFCFC;
+}
+
+.container{
+    max-width: 784px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}

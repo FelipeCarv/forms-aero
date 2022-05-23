@@ -1,0 +1,13 @@
+@import "../sass/cores";
+@import "../sass/fontes";
+
+//UTILIDADES
+@import "../sass/utilities/reset";
+@import "../sass/utilities/responsivo";
+@import "../sass/utilities/global"; 
+
+
+
+.body__prevencao1 {
+    @import "./pages/page_prevencao1"; 
+} 

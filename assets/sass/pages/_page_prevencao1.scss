@@ -1,0 +1,131 @@
+.intro-bg{
+    background-color: $cor-branco;
+}
+
+.form-bg{
+    background:rgba(251, 251, 255, 1);
+}
+
+.footer-bg{
+    background: #191C5A;
+}
+
+
+
+//============================= HEADER =============================
+
+#header{ 
+    .header{
+        display: flex;
+        align-items: center;
+        gap: 240px;
+        position: relative;
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+#introducao{
+    background: url(/assets/img/img-principal/aero-bg.png) no-repeat;
+    background-size: cover;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+       
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 130%;
+        color: $cor-branco;
+        text-align: center;
+        letter-spacing: -0.05em;
+    }
+
+    .swipper-introducao{
+        display: flex;
+        margin-top: 24px;
+        gap: 5px;
+
+        span{
+            display: block;
+            width: 10px;
+            height: 6px;
+            background: #E8E8EF;
+            border-radius: 4px;
+        }
+    }
+}
+
+#formulario-prevencao1{
+    .formulario-prevencao1{
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        box-shadow: 0px 12px 32px rgba(77, 78, 81, 0.08);
+        border-radius: 8px;
+
+        .informacao-formulario{
+            display: flex;
+            gap: 12px;
+            margin-top: 32px;
+            margin-left: 32px;
+            margin-right: 32px;
+            margin-bottom: 24px;
+            border-bottom: 1px solid rgba(230, 230, 231, 1);
+            .img-atencao{
+                img{
+                    min-width: 56px;
+                }
+                             
+            }
+
+            .informacoes{
+                margin-bottom: 32px;
+                p{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 130%;
+                    letter-spacing: -0.02em;
+                    color: #444554;
+    
+                    span{
+                        font-weight: bold;
+                    }
+                }
+
+            }
+            
+        }
+
+        form{
+            input[type=checkbox]{
+                border: 1px solid rgba(25, 28, 90, 0.4);
+                border-radius: 4px;
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+//============================= FOOTER =============================
+#footer{
+    .footer{
+       display: flex;
+       color: $cor-branco;
+       justify-content: space-between;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        p{
+            font-size: 16px;
+            line-height: 120%;            
+            letter-spacing: -0.02em;
+            color: #F2F8FA;
+
+        }
+    }
+}
