@@ -99,15 +99,77 @@
             
         }
 
-        form{
-            input[type=checkbox]{
-                border: 1px solid rgba(25, 28, 90, 0.4);
-                border-radius: 4px;
-                width: 20px;
-                height: 20px;
-                cursor: pointer;
+        .formulario{
+            margin-left: 32px;
+            margin-right: 32px;
+
+            .detalhe-form{
+                display: flex;
+                gap: 6px;
+                justify-content: flex-end;
+                margin-bottom: 32px;
+
+                span{
+                    display: block;
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 50%;
+                    background: #BABBCE;
+                }
+
+                #ativo{
+                    background: #191C5A;
+                }
             }
-        }
+
+            form{
+
+                .checkbox{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+    
+                    input[type=checkbox]{
+                        border: 1px solid rgba(25, 28, 90, 0.4);
+                        border-radius: 4px;
+                        width: 20px;
+                        height: 20px;
+                        cursor: pointer;
+                    }
+    
+                    label{
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 130%;
+                        letter-spacing: -0.02em;
+                        color: #444554;
+                    }
+                }  
+
+                input{
+                    background: #F5F5F6;
+                    border-radius: 4px;
+                    border: none;
+                    width: 100%;
+                    display: block;
+                    height: 48px;
+                }
+
+                label{
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 130%;
+                    letter-spacing: -0.02em;
+                    color: #606172;
+                }
+
+                .grid-2{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 24px;
+                }
+            }
+        }  
     }
 }
 

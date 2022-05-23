@@ -93,9 +93,9 @@ figure {
 
 
 
-:focus {
-  outline: 0px transparent !important;
-}
+// :focus {
+//   outline: 0px transparent !important;
+// }
 
 
 input[type="submit"] {
@@ -104,10 +104,10 @@ input[type="submit"] {
   appearance: none;
 }
 
-input {
-  -webkit-appearance: none;
+// input {
+//   -webkit-appearance: none;
 
-}
+// }
 
 [type="button"] {
   -webkit-appearance: none;
