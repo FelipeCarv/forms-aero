@@ -176,6 +176,20 @@
                     height: 48px;
                 }
 
+                select{
+                    background: #F5F5F6;
+                    border-radius: 4px;
+                    border: none;
+                    width: 100%;
+                    display: block;
+                    height: 48px;
+                    padding-left: 20px;
+
+                    background-image: url('/assets/img/img-principal/arrow-select.svg');
+                    background-repeat: no-repeat;
+                    background-position: right 20px center;
+                }
+
                 label{
                     font-weight: 600;
                     font-size: 14px;
