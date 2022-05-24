@@ -87,12 +87,6 @@
             margin-right: 32px;
             margin-bottom: 24px;
             border-bottom: 1px solid rgba(230, 230, 231, 1);
-            .img-atencao{
-                img{
-                    min-width: 56px;
-                }
-                             
-            }
 
             @include d(t){
                display: block;
@@ -137,6 +131,7 @@
 
                 .back{
                     display: flex;
+                    gap: 10px;
                     align-items: center;       
 
                     a{
