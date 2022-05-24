@@ -33,6 +33,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 
     h1{
        
@@ -48,25 +49,29 @@
         display: flex;
         margin-top: 24px;
         gap: 5px;
-
+        
         span{
             display: block;
             width: 10px;
             height: 6px;
             background: #E8E8EF;
             border-radius: 4px;
+            
         }
     }
 }
 
 #formulario-prevencao1{
+    
+    
     .formulario-prevencao1{
         background: #FFFFFF;
         border: 1px solid #EAEAEA;
         box-shadow: 0px 12px 32px rgba(77, 78, 81, 0.08);
         border-radius: 8px;
         margin-bottom: 160px;
-
+        position: relative;
+        top: -120px;
 
         .informacao-formulario{
             display: flex;
