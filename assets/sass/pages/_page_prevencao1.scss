@@ -72,6 +72,10 @@
         margin-bottom: 160px;
         position: relative;
         top: -120px;
+        @include d(t){
+            margin-bottom: 0px;
+            top: 0;
+        }
 
         .informacao-formulario{
             display: flex;
@@ -86,6 +90,12 @@
                     min-width: 56px;
                 }
                              
+            }
+
+            @include d(t){
+               display: block;
+               margin-left: 0px;
+               margin-right: 0px;
             }
 
             .informacoes{
@@ -109,7 +119,11 @@
         .formulario{
             margin-left: 32px;
             margin-right: 32px;
-            
+            @include d(t){
+               
+                margin-left: 0px;
+                margin-right: 0px;
+             }
 
             .detalhe-form{
                 display: flex;
@@ -145,6 +159,7 @@
                 .form-padrao{
                     margin-top: 24px;
                 }
+
                 .checkbox{
                     display: flex;
                     align-items: center;
@@ -202,6 +217,9 @@
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                     gap: 24px;
+                    @include d(t){
+                        grid-template-columns: 1fr;
+                    }
                 }
 
                 .adicional{
@@ -235,6 +253,10 @@
                         background-image: url('/assets/img/img-principal/arrow-button.svg');
                         background-repeat: no-repeat;
                         background-position: right 20px center;
+
+                        @include d(t){
+                            display: none;
+                        }
                     }
                 }
                

@@ -5,8 +5,18 @@ body, html{
     background-color: #FCFCFC;
 }
 
-.container{
+.container-formulario{
     max-width: 784px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.container{
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
