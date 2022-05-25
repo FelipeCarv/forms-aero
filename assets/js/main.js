@@ -5,6 +5,7 @@ import scriptsPrevencao0 from './modules/scriptsPaginas/prevencao0.js';
 import scriptsFadiga01 from './modules/scriptsPaginas/fadiga01.js';
 import scriptsFadiga02 from './modules/scriptsPaginas/fadiga02.js';
 import scriptsFadiga03 from './modules/scriptsPaginas/fadiga03.js';
+import scriptsFadiga04 from './modules/scriptsPaginas/fadiga04.js';
 
 // PAGES 
 
@@ -42,6 +43,13 @@ const pageFadiga03 = new Dom().el("#page__fadiga03")
 if (pageFadiga03) { // ★ FADIGA 1
     new Dom().bodyClass("body__fadiga03");
     scriptsFadiga03();
+}
+
+const pageFadiga04 = new Dom().el("#page__fadiga04")
+
+if (pageFadiga04) { // ★ FADIGA 1
+    new Dom().bodyClass("body__fadiga04");
+    scriptsFadiga04();
 }
 
 document.addEventListener("DOMContentLoaded", () => {

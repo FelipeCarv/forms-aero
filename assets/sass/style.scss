@@ -5,7 +5,7 @@
 @import "../sass/utilities/reset";
 @import "../sass/utilities/responsivo";
 @import "../sass/utilities/global"; 
-
+@import "../sass/components/modal";
 
 
 .body__prevencao1 {
@@ -27,4 +27,8 @@
 
 .body__fadiga03 {
     @import "./pages/page_fadiga03";  
+} 
+
+.body__fadiga04 {
+    @import "./pages/page_fadiga04";  
 } 
