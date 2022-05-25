@@ -3,6 +3,7 @@ import Dom from './modules/constructors.js'; //selecionar elementos
 import scriptsPrevencao1 from './modules/scriptsPaginas/prevencao1.js';
 import scriptsPrevencao0 from './modules/scriptsPaginas/prevencao0.js';
 import scriptsFadiga01 from './modules/scriptsPaginas/fadiga01.js';
+import scriptsFadiga02 from './modules/scriptsPaginas/fadiga02.js';
 
 // PAGES 
 
@@ -28,6 +29,12 @@ if (pageFadiga01) { // ★ FADIGA 1
     scriptsFadiga01();
 }
 
+const pageFadiga02 = new Dom().el("#page__fadiga02")
+
+if (pageFadiga02) { // ★ FADIGA 1
+    new Dom().bodyClass("body__fadiga02");
+    scriptsFadiga02();
+}
 
 
 document.addEventListener("DOMContentLoaded", () => {

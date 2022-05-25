@@ -85,47 +85,91 @@
 
                         <h2>Este formulário está sendo preenchido por causa de fadiga relacionada a (marque um)</h2>
 
-                        <div class="">
-                            <div class="form-padrao-radio">
-                                <input type="radio" name="incidente" id="incidente">
-                                <label for="incidente">Relatório de incidente apresentado</label>
+                        <div class="grid-2">
+                            <div>
+                                <div class="form-padrao-radio">
+                                    <input type="radio" name="incidente" id="incidente">
+                                    <label for="incidente">Relatório de incidente apresentado</label>
+                                </div>
+        
+                                <div class="form-padrao-radio">
+                                    <input type="radio" name="evento" id="evento">
+                                    <label for="evento">Um evento de segurança não reportado</label>
+                                </div>
                             </div>
+                            
+                            <div>
+                                <div class="form-padrao-radio">
+                                    <input type="radio" name="evento" id="evento">
+                                    <label for="evento">Uma extensão de jornada</label>
+                                </div>
     
-                            <!-- <div class="form-padrao-radio">
-                                <input type="radio" name="evento" id="evento">
-                                <label for="evento">Um evento de segurança não reportado</label>
-                            </div> -->
+                                <div class="form-padrao-radio">
+                                    <input type="radio" name="evento" id="evento">
+                                    <label for="evento">Uma preocupação geral a respeito da fadiga</label>
+                                </div>
+                            </div>
+                     
                         </div>
+
+                        <h2>Quando o evento ocorreu?</h2>
+
 
                         <div class=" grid-2">
                             <div class="form-padrao">
-                                <label for="">Registro da Aeronave (Prefixo) (opcional) </label>
-                                <input type="text" name="" id="">
+                                <label for="">Data</label>
+                                <input type="date" name="" id="">
                             </div>
     
                             <div class="form-padrao">
-                                <label for="">Tipo de Aeronave (opcional) </label>
-                                <select name="select">
-                                    <option value="valor1" selected>Selecione</option>
-                                    <option value="valor2">Valor 1</option>
-                                    <option value="valor3">Valor 2</option>
-                                  </select>
+                                <label for="">Hora (UTC) </label>
+                                <input type="time">
                             </div>
                         </div>
 
                         <div class="form-padrao">
-                            <label for="">Localidade (Designativo ICAO) (opcional)</label>
-                            <input type="text" name="" id="">
+                            <label for="">A quanto tempo estava trabalhando?</label>
+                            <input type="time" name="" id="">
                         </div>
 
+                        <h2>Qual fase do voo se sentiu mais cansado?</h2>
+
+                        <div class="checkbox grid-2">
+                            <div class="fase-checkbox">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Preparação</label>
+                            </div>
+                            <div class="fase-checkbox">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Taxi-out</label>
+                            </div>
+                            <div class="fase-checkbox">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Decolagem/Subida</label>
+                            </div>
+                            <div class="fase-checkbox">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Cruzeiro</label>
+                            </div>
+                            <div class="fase-checkbox">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Descida</label>
+                            </div>
+                            <div class="fase-checkbox">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Pouso</label>
+                            </div>
+                            <div class="fase-checkbox">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Taxi-in</label>
+                            </div>
+                            
+                        </div>
+
+                        <h2>Quando o voo ocorreu?</h2>
                         <div class="form-padrao">
-                            <label for="">Pessoas Envolvidas (opcional)</label>
+                            <label for="">Rota</label>
                             <input type="text" name="" id="">
-                        </div>
-
-                        <div class="adicional">
-                            <a href=""><img src="/assets/img/img-principal/simbolo-plus.svg" alt=""></a>
-                            <a>Adicionar pessoas envolvidas</a>
                         </div>
                         
                         <div class="continuar">
