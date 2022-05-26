@@ -177,11 +177,7 @@
                     
                    
                     input[type=checkbox]{
-                        border: 1px solid rgba(25, 28, 90, 0.4);
-                        border-radius: 4px;
-                        width: 20px;
-                        height: 20px;
-                        cursor: pointer;
+                        display: none;
                     }
 
                     // input[type=checkbox]:checked{
@@ -211,6 +207,26 @@
 
                         }
                     }
+
+                    .fase-checkbox input + label::before{
+                        content: '';
+                        border: 1px solid rgba(25, 28, 90, 0.4);
+                        border-radius: 4px;
+                        width: 20px;
+                        height: 20px;
+                        cursor: pointer;
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-right: 8px;
+                        margin-bottom: 4px;
+                    }
+                    
+                    .fase-checkbox input:checked + label::before{
+                        background-color: #191C5A;
+                        background-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 9 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.4 1.5L3.4 5.5L1 3.1' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
                 }  
 
                 .checkbox.grid-2{
@@ -234,11 +250,28 @@
                 }
 
                 input[type=radio]{
-                    background: #F5F5F6;
-                    border-radius: 4px;
-                    border: none;
+                   
+                    display: none;
+                }
+
+                .form-padrao-radio input + label::before{
+                    content: '';
+                    border: 1px solid rgba(25, 28, 90, 0.4);
+                    border-radius: 50%;
                     width: 20px;
                     height: 20px;
+                    cursor: pointer;
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: 8px;
+                    margin-bottom: 4px;
+                }
+
+                .form-padrao-radio input:checked + label::before{
+                    background-color: #fff;
+                    box-sizing: border-box;
+                    border: 6.5px solid #191C5A;
+                    padding: 1px;
                 }
 
                 // input[type=radio]:checked{
