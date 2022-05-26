@@ -73,8 +73,10 @@
         position: relative;
         top: -120px;
         @include d(t){
-            margin-bottom: 0px;
+            margin-top: 10px;
+            margin-bottom: 10px;
             top: 0;
+            max-width: 340px;
         }
 
         .informacao-formulario{
@@ -93,10 +95,11 @@
             }
 
             @include d(t){
-               display: block;
-               margin-left: 0px;
-               margin-right: 0px;
-            }
+                display: block;
+                margin-left: 10px;
+                margin-right: 10px;
+             }
+ 
 
             .informacoes{
                 margin-bottom: 32px;
@@ -121,9 +124,9 @@
             margin-right: 32px;
             @include d(t){
                
-                margin-left: 0px;
-                margin-right: 0px;
-             }
+                margin-left: 10px;
+                margin-right: 10px;
+            }
 
             .detalhe-form{
                 display: flex;
@@ -254,9 +257,12 @@
                         background-repeat: no-repeat;
                         background-position: right 20px center;
 
-                        @include d(t){
-                            display: none;
-                        }
+                       
+                    }
+
+                    @include d(t){
+                        display: grid;
+                        justify-content: inherit;
                     }
                 }
                
@@ -282,6 +288,10 @@
             letter-spacing: -0.02em;
             color: #F2F8FA;
 
+        }
+
+        @include d(t){
+            display: none;    
         }
     }
 }
