@@ -169,6 +169,16 @@
 
             form{
 
+
+                #opcao1,
+                #opcao2{
+                    display: none ;
+                }
+
+                .ativar{
+                    display: grid !important;
+                }
+
                 h2{
                     margin-top: 32px;
                     

@@ -58,9 +58,12 @@
     
                     <form action="#">
                         <div class="checkbox">
-                            <input type="checkbox" id="checkbox" name="checkbox" checked>
-                            <label for="checkbox">Quero que este relatório seja confidencial</label>
+                            <div class="fase-checkbox">
+                                <input type="checkbox" id="checkbox" name="checkbox">
+                                <label for="checkbox">Quero que este relatório seja confidencial</label>
+                            </div>
                         </div>
+                       
 
                         <h2>Informações pessoais (opcional)</h2>
 
@@ -121,7 +124,17 @@
                             <input type="text" name="" id="">
                         </div>
 
-                        <div class="adicional">
+                        <div class="form-padrao" id="opcao1">
+                            <label for="">Pessoas Envolvidas</label>
+                            <input type="text" name="" id="">
+                        </div>
+
+                        <div class="form-padrao" id="opcao2">
+                            <label for="">Pessoas Envolvidas </label>
+                            <input type="text" name="" id="">
+                        </div>
+
+                        <div class="adicional" id="adicionar">
                             <a href=""><img src="/assets/img/img-principal/simbolo-plus.svg" alt=""></a>
                             <a>Adicionar pessoas envolvidas</a>
                         </div>
